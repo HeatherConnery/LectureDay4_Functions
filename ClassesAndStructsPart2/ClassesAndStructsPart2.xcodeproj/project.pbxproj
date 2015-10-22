@@ -14,6 +14,8 @@
 		B6E7EBFB1BD92ABC002D4366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E7EBF91BD92ABC002D4366 /* LaunchScreen.storyboard */; };
 		B6E7EC061BD92ABC002D4366 /* ClassesAndStructsPart2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EC051BD92ABC002D4366 /* ClassesAndStructsPart2Tests.swift */; };
 		B6E7EC111BD92ABC002D4366 /* ClassesAndStructsPart2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EC101BD92ABC002D4366 /* ClassesAndStructsPart2UITests.swift */; };
+		B6E7EC1F1BD92E2D002D4366 /* eve.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E7EC1E1BD92E2D002D4366 /* eve.png */; settings = {ASSET_TAGS = (); }; };
+		B6E7EC211BD92F7D002D4366 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EC201BD92F7D002D4366 /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B6E7EC0C1BD92ABC002D4366 /* ClassesAndStructsPart2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesAndStructsPart2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E7EC101BD92ABC002D4366 /* ClassesAndStructsPart2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesAndStructsPart2UITests.swift; sourceTree = "<group>"; };
 		B6E7EC121BD92ABC002D4366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E7EC1E1BD92E2D002D4366 /* eve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eve.png; sourceTree = "<group>"; };
+		B6E7EC201BD92F7D002D4366 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		B6E7EBE41BD92ABC002D4366 = {
 			isa = PBXGroup;
 			children = (
+				B6E7EC1E1BD92E2D002D4366 /* eve.png */,
 				B6E7EBEF1BD92ABC002D4366 /* ClassesAndStructsPart2 */,
 				B6E7EC041BD92ABC002D4366 /* ClassesAndStructsPart2Tests */,
 				B6E7EC0F1BD92ABC002D4366 /* ClassesAndStructsPart2UITests */,
@@ -100,6 +105,7 @@
 				B6E7EBF01BD92ABC002D4366 /* AppDelegate.swift */,
 				B6E7EBF21BD92ABC002D4366 /* ViewController.swift */,
 				B6E7EBF41BD92ABC002D4366 /* Main.storyboard */,
+				B6E7EC201BD92F7D002D4366 /* SecondViewController.swift */,
 				B6E7EBF71BD92ABC002D4366 /* Assets.xcassets */,
 				B6E7EBF91BD92ABC002D4366 /* LaunchScreen.storyboard */,
 				B6E7EBFC1BD92ABC002D4366 /* Info.plist */,
@@ -230,6 +236,7 @@
 			files = (
 				B6E7EBFB1BD92ABC002D4366 /* LaunchScreen.storyboard in Resources */,
 				B6E7EBF81BD92ABC002D4366 /* Assets.xcassets in Resources */,
+				B6E7EC1F1BD92E2D002D4366 /* eve.png in Resources */,
 				B6E7EBF61BD92ABC002D4366 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E7EC211BD92F7D002D4366 /* SecondViewController.swift in Sources */,
 				B6E7EBF31BD92ABC002D4366 /* ViewController.swift in Sources */,
 				B6E7EBF11BD92ABC002D4366 /* AppDelegate.swift in Sources */,
 			);
